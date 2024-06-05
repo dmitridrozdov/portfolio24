@@ -1,3 +1,6 @@
+
+"use client";
+
 import { navItems } from "@/data";
 
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
@@ -19,7 +22,7 @@ export default function Home() {
         <RecentProjects />
         <Clients />
         <Experience />
-        {/* <Approach /> */}
+        <Approach />
         <Footer />
       </div>
     </main>
